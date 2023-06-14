@@ -199,6 +199,8 @@ Or if you want to run just the tests, you can use the docker [Plugin Tester](htt
 docker run --rm -ti -v "${PWD}":/plugin buildkite/plugin-tester:latest
 ```
 
+To build this plugin, docker daemon should be running on the host where buildkite-agent is currently running.
+
 ## 👩‍💻 Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/buildkite-plugins/test-collector-buildkite-plugin
